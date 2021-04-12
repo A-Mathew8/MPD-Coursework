@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MPD-Coursework</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="home_title">All Earthquakes</string>
+    <string name="search_page">Search Earthquakes</string>
+    <string name="startDate">Select Start Date</string>
+    <string name="endDate">Select End Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+</resources>

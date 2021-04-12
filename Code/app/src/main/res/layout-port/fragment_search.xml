@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TableRow>
+
+        <TextView android:id="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_page"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+
+    <TableRow>
+        <TextView android:id="@+id/startDate"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startDate"
+            android:layout_marginBottom="12dp"
+            android:textSize="15sp"/>
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView android:id="@+id/endDate"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endDate"
+            android:textSize="15sp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/label1"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        </ListView>
+    </TableRow>
+
+</TableLayout>
